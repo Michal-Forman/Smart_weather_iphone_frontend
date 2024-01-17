@@ -14,6 +14,7 @@
 		B71AC49D2B51E70C000A5A9F /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC49C2B51E70C000A5A9F /* Cards.swift */; };
 		B71AC4A02B527163000A5A9F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC49F2B527163000A5A9F /* LocationManager.swift */; };
 		B71AC4A22B52A605000A5A9F /* OutfitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC4A12B52A605000A5A9F /* OutfitCard.swift */; };
+		B71AC4A42B586208000A5A9F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B71AC4A32B586208000A5A9F /* README.md */; };
 		B7427CED2B4DA5E9006285A8 /* Smart_Weather_IphoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7427CEC2B4DA5E9006285A8 /* Smart_Weather_IphoneApp.swift */; };
 		B7427CEF2B4DA5E9006285A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7427CEE2B4DA5E9006285A8 /* ContentView.swift */; };
 		B7427CF12B4DA5EC006285A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7427CF02B4DA5EC006285A8 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		B71AC49E2B51ED8F000A5A9F /* Smart-Weather-Iphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Smart-Weather-Iphone-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B71AC49F2B527163000A5A9F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		B71AC4A12B52A605000A5A9F /* OutfitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitCard.swift; sourceTree = "<group>"; };
+		B71AC4A32B586208000A5A9F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B7427CE92B4DA5E9006285A8 /* Smart Weather Iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Weather Iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7427CEC2B4DA5E9006285A8 /* Smart_Weather_IphoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Weather_IphoneApp.swift; sourceTree = "<group>"; };
 		B7427CEE2B4DA5E9006285A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		B7427CE02B4DA5E9006285A8 = {
 			isa = PBXGroup;
 			children = (
+				B71AC4A32B586208000A5A9F /* README.md */,
 				B7427CEB2B4DA5E9006285A8 /* Smart Weather Iphone */,
 				B7427CEA2B4DA5E9006285A8 /* Products */,
 			);
@@ -197,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71AC4A42B586208000A5A9F /* README.md in Resources */,
 				B7427CF42B4DA5EC006285A8 /* Preview Assets.xcassets in Resources */,
 				B7427CF12B4DA5EC006285A8 /* Assets.xcassets in Resources */,
 			);
