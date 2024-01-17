@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B71AC4932B51D338000A5A9F /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC4922B51D338000A5A9F /* MainCard.swift */; };
+		B71AC4952B51D3F8000A5A9F /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC4942B51D3F8000A5A9F /* Title.swift */; };
+		B71AC4972B51D42E000A5A9F /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC4962B51D42E000A5A9F /* Background.swift */; };
+		B71AC4992B51DB22000A5A9F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC4982B51DB22000A5A9F /* Card.swift */; };
+		B71AC49D2B51E70C000A5A9F /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC49C2B51E70C000A5A9F /* Cards.swift */; };
+		B71AC4A02B527163000A5A9F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC49F2B527163000A5A9F /* LocationManager.swift */; };
+		B71AC4A22B52A605000A5A9F /* OutfitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71AC4A12B52A605000A5A9F /* OutfitCard.swift */; };
 		B7427CED2B4DA5E9006285A8 /* Smart_Weather_IphoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7427CEC2B4DA5E9006285A8 /* Smart_Weather_IphoneApp.swift */; };
 		B7427CEF2B4DA5E9006285A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7427CEE2B4DA5E9006285A8 /* ContentView.swift */; };
 		B7427CF12B4DA5EC006285A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7427CF02B4DA5EC006285A8 /* Assets.xcassets */; };
 		B7427CF42B4DA5EC006285A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7427CF32B4DA5EC006285A8 /* Preview Assets.xcassets */; };
+		B7427CFF2B4DE41D006285A8 /* WeatherValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7427CFE2B4DE41D006285A8 /* WeatherValues.swift */; };
+		B7427D012B4DE4B3006285A8 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7427D002B4DE4B3006285A8 /* WeatherService.swift */; };
+		B7427D042B4DEDC6006285A8 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7427D032B4DEDC6006285A8 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B71AC4922B51D338000A5A9F /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
+		B71AC4942B51D3F8000A5A9F /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		B71AC4962B51D42E000A5A9F /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		B71AC4982B51DB22000A5A9F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B71AC49C2B51E70C000A5A9F /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		B71AC49E2B51ED8F000A5A9F /* Smart-Weather-Iphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Smart-Weather-Iphone-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B71AC49F2B527163000A5A9F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B71AC4A12B52A605000A5A9F /* OutfitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitCard.swift; sourceTree = "<group>"; };
 		B7427CE92B4DA5E9006285A8 /* Smart Weather Iphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Weather Iphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7427CEC2B4DA5E9006285A8 /* Smart_Weather_IphoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Weather_IphoneApp.swift; sourceTree = "<group>"; };
 		B7427CEE2B4DA5E9006285A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B7427CF02B4DA5EC006285A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7427CF32B4DA5EC006285A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7427CFE2B4DE41D006285A8 /* WeatherValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherValues.swift; sourceTree = "<group>"; };
+		B7427D002B4DE4B3006285A8 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		B7427D032B4DEDC6006285A8 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,13 @@
 		B7427CEB2B4DA5E9006285A8 /* Smart Weather Iphone */ = {
 			isa = PBXGroup;
 			children = (
+				B71AC49E2B51ED8F000A5A9F /* Smart-Weather-Iphone-Info.plist */,
 				B7427CEC2B4DA5E9006285A8 /* Smart_Weather_IphoneApp.swift */,
-				B7427CEE2B4DA5E9006285A8 /* ContentView.swift */,
+				B7427D022B4DED33006285A8 /* ViewModels */,
+				B7427CFD2B4DE3E1006285A8 /* Utilities */,
+				B7427CFC2B4DE3CD006285A8 /* Services */,
+				B7427CFB2B4DE3C5006285A8 /* Models */,
+				B7427CFA2B4DE36B006285A8 /* Views */,
 				B7427CF02B4DA5EC006285A8 /* Assets.xcassets */,
 				B7427CF22B4DA5EC006285A8 /* Preview Content */,
 			);
@@ -65,6 +91,52 @@
 				B7427CF32B4DA5EC006285A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7427CFA2B4DE36B006285A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7427CEE2B4DA5E9006285A8 /* ContentView.swift */,
+				B71AC4922B51D338000A5A9F /* MainCard.swift */,
+				B71AC4942B51D3F8000A5A9F /* Title.swift */,
+				B71AC4962B51D42E000A5A9F /* Background.swift */,
+				B71AC4A12B52A605000A5A9F /* OutfitCard.swift */,
+				B71AC4982B51DB22000A5A9F /* Card.swift */,
+				B71AC49C2B51E70C000A5A9F /* Cards.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7427CFB2B4DE3C5006285A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7427CFE2B4DE41D006285A8 /* WeatherValues.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7427CFC2B4DE3CD006285A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B7427D002B4DE4B3006285A8 /* WeatherService.swift */,
+				B71AC49F2B527163000A5A9F /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B7427CFD2B4DE3E1006285A8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B7427D022B4DED33006285A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B7427D032B4DEDC6006285A8 /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7427D042B4DEDC6006285A8 /* WeatherViewModel.swift in Sources */,
+				B71AC4992B51DB22000A5A9F /* Card.swift in Sources */,
+				B7427D012B4DE4B3006285A8 /* WeatherService.swift in Sources */,
+				B71AC4A02B527163000A5A9F /* LocationManager.swift in Sources */,
+				B71AC4A22B52A605000A5A9F /* OutfitCard.swift in Sources */,
+				B71AC4952B51D3F8000A5A9F /* Title.swift in Sources */,
+				B71AC4972B51D42E000A5A9F /* Background.swift in Sources */,
+				B71AC49D2B51E70C000A5A9F /* Cards.swift in Sources */,
 				B7427CEF2B4DA5E9006285A8 /* ContentView.swift in Sources */,
 				B7427CED2B4DA5E9006285A8 /* Smart_Weather_IphoneApp.swift in Sources */,
+				B71AC4932B51D338000A5A9F /* MainCard.swift in Sources */,
+				B7427CFF2B4DE41D006285A8 /* WeatherValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +354,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Smart Weather Iphone/Preview Content\"";
+				DEVELOPMENT_TEAM = FDG42LU68C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Weather-Iphone-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +385,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Smart Weather Iphone/Preview Content\"";
+				DEVELOPMENT_TEAM = FDG42LU68C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Weather-Iphone-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
